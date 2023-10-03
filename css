@@ -1,0 +1,38 @@
+CSS NOTES
+See more here:
+https://www.w3schools.com/css/default.asp
+Inline: Writen in the same line as html tag. Fx: <p style="color:blue;text-align:center;"> Hello world! </p>
+
+Internal: 
+Written inside the <head> tag fx:
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background.color: linen;
+      }
+      h1 {
+        color: maroon;
+        margin-left 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1> This is a heading</h1>
+    <p> This is a Paragraph</p>
+  </body>
+</html>
+
+External:
+An external .css file, linked in the head, with a relationship definition.
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1> This is a heading</h1>
+    <p> This is a Paragraph</p>
+  </body>
+</html>
